@@ -1,4 +1,4 @@
-# andy lawrence, trevor jordan
+# andy lawrence, trevor michale jorban
 import math, os, pickle, re
 from typing import Tuple, List, Dict
 
@@ -20,7 +20,7 @@ class BayesClassifier:
         """Constructor initializes and trains the Naive Bayes Sentiment Classifier. If a
         cache of a trained classifier is stored in the current folder it is loaded,
         otherwise the system will proceed through training.  Once constructed the
-        classifier is ready to classify input text."""
+        classifier is ready to classify inp ut text."""
         # initialize attributes
         self.pos_freqs: Dict[str, int] = {}
         self.neg_freqs: Dict[str, int] = {}
